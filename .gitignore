@@ -21,3 +21,10 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+
+*.pug
+templates/*.pug
+includes/*.pug
+
+*.scss
+sass/*.scss
