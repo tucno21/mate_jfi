@@ -24,9 +24,16 @@ Homestead.json
 
 *.pug
 templates/*.pug
-includes/*.pug
+includes*.pug
+pug/*.pug
+pug/templates/*.pug
+pug/includes*.pug
+
 includes/*.html
 templates/*.html
+pug/*.html
+pug/templates/*.html
+pug/includes/*.html
 
 *.scss
 sass/*.scss
