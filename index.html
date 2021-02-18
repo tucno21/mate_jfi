@@ -3,17 +3,82 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>matemática</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1d88763075.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Matemática</title>
   </head>
   <body>
-    <header class="header">
-      <h1 class="header__logo">Matemática</h1>
-      <ul class="menu">
-        <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Registro</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Evaluación</a></li>
-      </ul>
-    </header>
+    <div class="container">
+      <!-- HEADER-->
+      <header class="header">
+        <div class="header__container">
+          <h2 class="header__title">Matemática</h2>
+          <label class="menu__show" for="checked"><i class="fas fa-bars"></i></label>
+        </div>
+        <input class="menu__check" id="checked" type="checkbox">
+        <ul class="menu">
+          <label class="menu__hide" for="checked"><i class="fas fa-times"></i></label>
+          <li class="menu__item"><a class="menu__link" href="/">Inicio</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Registro</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Evaluación</a></li>
+        </ul>
+      </header>
+      <!-- PRESENTACION-->
+      <div class="presentation"><img class="presentation__img" src="./img/aprendo_casa.png" alt="logo aprendo en casa">
+        <p class="presentation__paragraph">Bienvenido señorita y/o jóvenes aquí encontraras las clases de matemática organizado por meses y semana, cualquier duda sobre los temas enviar un mensaje al WhatsApp.</p>
+      </div>
+      <!--    MAIN-->
+      <main class="main">
+        <div class="main__container">
+          <!-- MARZO-->
+          <section class="months" id="marzo"><a class="months__btn" href="#marzo">Marzo</a>
+            <div class="months__smenu"><a class="months__link" href="semana1.html">Semana 1</a><a class="months__link" href="#">Semana 2</a></div>
+          </section>
+          <!-- ABRIL-->
+          <section class="months" id="abril"><a class="months__btn" href="#abril">Abril</a>
+            <div class="months__smenu"><a class="months__link" href="#">Semana 3</a><a class="months__link" href="#">Semana 4</a><a class="months__link" href="#">Semana 5</a><a class="months__link" href="#">Semana 6</a></div>
+          </section>
+          <!-- MAYO-->
+          <section class="months" id="mayo"><a class="months__btn" href="#mayo">Mayo</a>
+            <div class="months__smenu"><a class="months__link" href="#">Semana 7</a><a class="months__link" href="#">Semana 8</a><a class="months__link" href="#">Semana 9</a><a class="months__link" href="#">Semana 10</a></div>
+          </section>
+          <!-- JUNIO-->
+          <section class="months" id="junio"><a class="months__btn" href="#junio">Junio</a>
+            <div class="months__smenu"><a class="months__link" href="#">Semana 11</a><a class="months__link" href="#">Semana 12</a><a class="months__link" href="#">Semana 13</a><a class="months__link" href="#">Semana 14</a></div>
+          </section>
+          <!-- JULIO-->
+          <section class="months" id="julio"><a class="months__btn" href="#julio">Julio</a>
+            <div class="months__smenu"><a class="months__link" href="#">Semana 15</a><a class="months__link" href="#">Semana 16</a><a class="months__link" href="#">Semana 17</a><a class="months__link" href="#">Semana 18</a></div>
+          </section>
+          <!-- AGOSTO-->
+          <section class="months" id="agosto"><a class="months__btn" href="#agosto">Agosto</a>
+            <div class="months__smenu"><a class="months__link" href="#">Semana 19</a><a class="months__link" href="#">Semana 20</a><a class="months__link" href="#">Semana 21</a><a class="months__link" href="#">Semana 22</a></div>
+          </section>
+          <!-- SETIEMBRE-->
+          <section class="months" id="septiembre"><a class="months__btn" href="#septiembre">Setiembre</a>
+            <div class="months__smenu"><a class="months__link" href="#">Semana 23</a><a class="months__link" href="#">Semana 24</a><a class="months__link" href="#">Semana 25</a><a class="months__link" href="#">Semana 26</a></div>
+          </section>
+          <!-- OCTUBRE-->
+          <section class="months" id="octubre"><a class="months__btn" href="#octubre">Octubre</a>
+            <div class="months__smenu"><a class="months__link" href="#">Semana 27</a><a class="months__link" href="#">Semana 28</a><a class="months__link" href="#">Semana 29</a><a class="months__link" href="#">Semana 30</a></div>
+          </section>
+          <!-- NOVIEMBRE -->
+          <section class="months" id="noviembre"><a class="months__btn" href="#noviembre">Noviembre</a>
+            <div class="months__smenu"><a class="months__link" href="#">Semana 31</a><a class="months__link" href="#">Semana 32</a><a class="months__link" href="#">Semana 33</a><a class="months__link" href="#">Semana 34</a></div>
+          </section>
+          <!-- DICIEMBRE -->
+          <section class="months" id="diciembre"><a class="months__btn" href="#diciembre">Diciembre</a>
+            <div class="months__smenu"><a class="months__link" href="#">Semana 35</a><a class="months__link" href="#">Semana 36</a><a class="months__link" href="#">Semana 37</a><a class="months__link" href="#">Semana 38</a></div>
+          </section>
+        </div>
+      </main>
+      <!-- FOOTER-->
+      <footer class="footer"><a class="footer__whatsapp" href="https://wa.me/51910954568"><img src="./img/whatsapp2.svg" alt="logo WhatsApp"></a>
+        <p class="footer__text">Página web diseñado por Carlos Tucno</p>
+      </footer>
+    </div>
   </body>
 </html>
